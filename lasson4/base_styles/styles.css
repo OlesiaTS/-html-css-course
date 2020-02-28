@@ -1,0 +1,23 @@
+header {
+    background-color: red;
+    width: 100px;
+}
+
+h1 {
+    color: white;
+    size: 24px;
+}
+
+main {
+    background-color: blue;
+    size: 18px;
+    width: 300px;
+    color: white;
+}
+
+footer {
+    background-color: green;
+    size: 18px;
+    width: 100px;
+    color: white;
+}
