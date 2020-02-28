@@ -3,7 +3,7 @@ div {
 }
 
 span {
-    display: inline-table;
+    display: block;
     height: 100px;
     width: 200px;
     background-color: yellow;
