@@ -1,0 +1,7 @@
+.padding {
+    height: default;
+    width: default;
+    border: 3px solid black;
+    padding: 25px;
+    background-color: aqua;
+}
