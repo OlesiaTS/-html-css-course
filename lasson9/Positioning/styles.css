@@ -12,11 +12,14 @@ header {
 }
 
 .nav-item {
-    line-height: 40px;
     float: left;
     height: 40px;
-    color: black;
+    color: white;
     margin-left: 16px;
+}
+
+li {
+    list-style-type: none;
 }
 
 main {
@@ -31,6 +34,8 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 .ear {
