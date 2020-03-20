@@ -6,11 +6,6 @@ header {
     z-index: 1;
 }
 
-.nav-list {
-    height: 40px;
-    background-color: darkturquoise;
-}
-
 .nav-item {
     float: left;
     height: 40px;
