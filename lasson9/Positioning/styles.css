@@ -6,11 +6,16 @@ header {
     z-index: 1;
 }
 
+.nvigation {
+    height: 40px;
+    background-color: darkturquoise;
+}
+
 .nav-item {
     float: left;
-    height: 40px;
     color: white;
     margin-left: 16px;
+    line-height: 20px;
 }
 
 li {
