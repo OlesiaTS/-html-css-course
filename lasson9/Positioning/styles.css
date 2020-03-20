@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-header,
-nav {
+header {
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
@@ -11,10 +10,14 @@ nav {
     z-index: 1;
 }
 
-.nav-item {
+.nav-list {
     color: white;
     margin-left: 16px;
-    display: inline-block;
+}
+
+.nav-item {
+    line-height: 1.25;
+    float: left;
 }
 
 main {
@@ -26,25 +29,27 @@ main {
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: relative;
-    display: block;
-    margin: auto;
-    top: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 .ear {
     width: 40px;
     height: 60px;
     background-color: brown;
-    position: relative;
 }
 
 .ear_right {
-    float: right;
+    position: absolute;
+    top: -60px;
+    right: -40px;
 }
 
 .ear_left {
-    float: left;
+    position: absolute;
+    top: -60px;
+    left: -40px;
 }
 
 .eye {
@@ -52,16 +57,16 @@ main {
     width: 30px;
     height: 30px;
     background-color: gray;
-    display: inline-block;
-    position: relative;
 }
 
 .eye_right {
+    position: absolute;
     top: 80px;
-    left: 100px;
+    right: 40px;
 }
 
 .eye_left {
+    position: absolute;
     top: 80px;
-    right: 40px;
+    left: 40px;
 }
