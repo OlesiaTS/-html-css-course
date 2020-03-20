@@ -8,14 +8,13 @@ header {
 
 .nvigation {
     height: 40px;
-    background-color: darkturquoise;
 }
 
 .nav-item {
     float: left;
     color: white;
     margin-left: 16px;
-    line-height: 20px;
+    line-height: 10px;
 }
 
 li {
