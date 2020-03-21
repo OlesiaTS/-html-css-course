@@ -1,9 +1,14 @@
+  * {
+      margin: 0px;
+      padding: 0px;
+  }
+  
   header {
       background-color: darkturquoise;
       height: 40px;
       width: 100%;
       z-index: 1;
-      /* position: fixed; */
+      position: fixed;
   }
   
   .nvigation {
