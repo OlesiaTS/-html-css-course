@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    margin: auto;
+}
+
+.articles-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+    flex: 1 0 300px;
+}
