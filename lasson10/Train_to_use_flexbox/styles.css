@@ -4,10 +4,8 @@
 
 header {
     display: flex;
-}
-
-h1 {
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .articles-list {
