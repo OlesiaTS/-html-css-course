@@ -18,8 +18,12 @@ div>span {
     opacity: 0.8;
 }
 
-span:hover {
+.menu-button {
     opacity: 1;
+}
+
+span:hover {
+    background-color: darkgreen rgb(0, 100, 0, 1);
 }
 
 .menu-list {
