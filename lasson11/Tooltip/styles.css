@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: inline-block;
+}
+
+div {
+    border-bottom: 1px dotted black;
+}
+
+.tooltip-text,
+.tooltip {
+    margin: 16px;
+}
+
+.tooltip {
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    /* top: 40px; */
+}
