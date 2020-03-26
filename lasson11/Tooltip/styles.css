@@ -4,6 +4,7 @@
 
 body {
     display: inline-block;
+    position: relative;
 }
 
 div {
@@ -20,5 +21,6 @@ div {
     color: white;
     border-radius: 4px;
     padding: 8px;
-    /* top: 40px; */
+    position: relative;
+    bottom: -40px;
 }
