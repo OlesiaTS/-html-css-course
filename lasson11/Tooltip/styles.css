@@ -21,6 +21,6 @@ body {
     top: 40px;
 }
 
-div:hover span {
+.tooltip:hover .tooltip-text {
     display: block;
 }
