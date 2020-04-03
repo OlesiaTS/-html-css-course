@@ -4,14 +4,13 @@
 
 body {
     display: inline-block;
-    position: relative;
 }
 
-div {
+.text {
     border-bottom: 1px dotted black;
 }
 
-.tooltip-text,
+.text,
 .tooltip {
     margin: 16px;
 }
@@ -21,4 +20,11 @@ div {
     color: white;
     border-radius: 4px;
     padding: 8px;
+    display: none;
+    position: absolute;
+    top: 40px;
+}
+
+div:hover span {
+    display: block;
 }
