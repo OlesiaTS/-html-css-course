@@ -6,16 +6,12 @@ body {
     display: inline-block;
 }
 
-.text {
-    border-bottom: 1px dotted black;
-}
-
-.text,
 .tooltip {
+    border-bottom: 1px dotted black;
     margin: 16px;
 }
 
-.tooltip {
+.tooltip-text {
     background-color: gray;
     color: white;
     border-radius: 4px;
