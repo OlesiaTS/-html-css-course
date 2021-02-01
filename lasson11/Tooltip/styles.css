@@ -2,11 +2,9 @@
     box-sizing: border-box;
 }
 
-body {
-    display: inline-block;
-}
-
 .tooltip {
+    position: relative;
+    display: inline-block;
     border-bottom: 1px dotted black;
     margin: 16px;
 }
@@ -16,9 +14,10 @@ body {
     color: white;
     border-radius: 4px;
     padding: 8px;
+    margin: 0;
     display: none;
     position: absolute;
-    top: 40px;
+    bottom: -40px;
 }
 
 .tooltip:hover .tooltip-text {
