@@ -5,4 +5,5 @@
 .thumb {
     margin: 8px;
     cursor: all-scroll;
+    overflow: visible;
 }
