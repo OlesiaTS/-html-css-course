@@ -2,14 +2,15 @@
     box-sizing: border-box;
 }
 
-.tooltip {
+.text {
     position: relative;
     display: inline-block;
+    color: black;
     border-bottom: 1px dotted black;
     margin: 16px;
 }
 
-.tooltip-text {
+.tooltip {
     background-color: gray;
     color: white;
     border-radius: 4px;
@@ -20,6 +21,6 @@
     bottom: -40px;
 }
 
-.tooltip:hover .tooltip-text {
+.text:hover .tooltip {
     display: block;
 }
