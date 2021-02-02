@@ -1,9 +1,11 @@
 .gallery {
     display: flex;
+    width: 2600px;
 }
 
 .thumb {
     margin: 8px;
     cursor: all-scroll;
-    overflow: visible;
+    visibility: visible;
+    overflow: scroll;
 }
