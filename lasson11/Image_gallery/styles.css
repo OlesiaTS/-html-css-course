@@ -2,11 +2,8 @@
     display: flex;
 }
 
-.thumb {
-    margin: 8px;
-}
-
 img {
     overflow: auto;
     cursor: all-scroll;
+    margin: 8px;
 }
