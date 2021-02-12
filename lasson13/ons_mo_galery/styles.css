@@ -2,11 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .image {
     float: left;
     width: 200px;
     height: 200px;
-    margin: 16px;
+    margin: 16px 14px 16px 16px;
     border: 1px dotted gray;
     background-position: center;
     background-size: contain;
