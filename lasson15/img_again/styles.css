@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.image-container {
+    position: relative;
+}
+
 .image {
     display: block;
     margin: 0px auto;
@@ -19,7 +23,7 @@
     text-transform: uppercase;
     font-weight: 700;
     position: absolute;
-    top: calc(25% - 25px);
+    top: calc(50% - 25px);
     left: calc(50% - 100px);
     cursor: pointer;
 }
