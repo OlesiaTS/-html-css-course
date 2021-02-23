@@ -4,6 +4,7 @@
 
 body {
     background-color: bisque;
+    margin: 0;
 }
 
 .page {
@@ -25,13 +26,13 @@ body {
     text-align: center;
 }
 
-label {
+.form-label {
+    margin-top: 8px;
     margin-bottom: 4px;
     display: inline-block;
 }
 
 .form-input {
-    margin-bottom: 8px;
     height: 32px;
     border-radius: 4px;
     border: 1px solid #808080;
