@@ -9,12 +9,13 @@ body {
 }
 
 .page {
-    font: 16px monospace;
     display: flex;
     height: 100vh;
 }
 
 .login-form {
+    font-size: 16px;
+    font-family: monospace;
     margin: auto;
     background-color: aqua;
     width: 300px;
