@@ -27,9 +27,12 @@ body {
 }
 
 .form-label {
-    margin-top: 8px;
     margin-bottom: 4px;
     display: inline-block;
+}
+
+.form-control {
+    margin-bottom: 8px;
 }
 
 .form-input {
