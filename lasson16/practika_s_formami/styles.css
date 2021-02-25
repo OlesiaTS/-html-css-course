@@ -2,6 +2,7 @@
     margin: 32px;
 }
 
-div {
+div,
+button {
     margin: 8px;
 }
